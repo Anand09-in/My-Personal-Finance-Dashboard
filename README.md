@@ -15,7 +15,7 @@ The dataset used for this dashboard contains the following attributes:
 ## Data Preprocessing
 Before creating the dashboard, the following data preprocessing steps were performed:
 
-1. Extracting Payment Type: The "Description" field was used to extract the payment type of each transaction. Regular expressions or keyword-based approaches were used to categorize transactions into payment types like "Groceries," "Entertainment," "Transportation," etc.
+1. Extracting Payment Type: The "Description" field was used to extract the payment type of each transaction. Regular expressions or keyword-based approaches were used to categorize transactions into payment types like "UPI, Card, Internet Banking " etc.
 
 2. Extracting Month and Weekdays: The "Date" field was utilized to extract the month and weekdays (Monday, Tuesday, etc.) of each transaction. This helps in understanding spending patterns over different periods.
 
