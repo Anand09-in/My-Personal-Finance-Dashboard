@@ -1,10 +1,10 @@
-#Personal Finance Dashboard using Bank Statement Data
+# Personal Finance Dashboard using Bank Statement Data
 Personal Finance Dashboard
 
-##Overview
+## Overview
 This project is a Personal Finance Dashboard that utilizes bank statement data to provide valuable insights into your spending and financial habits. The dashboard is designed using Power BI and allows you to track your average weekday spending, monthly debits and credits, and analyze transaction patterns based on different payment types.
 
-##Dataset
+## Dataset
 The dataset used for this dashboard contains the following attributes:
 
 1.Date: The date of each transaction.
@@ -12,14 +12,14 @@ The dataset used for this dashboard contains the following attributes:
 3.Credit: The credit amount of the transaction (amount received).
 4.Debit: The debit amount of the transaction (amount spent).
 5.Balance: The account balance after each transaction.
-##Data Preprocessing
+## Data Preprocessing
 Before creating the dashboard, the following data preprocessing steps were performed:
 
 1.Extracting Payment Type: The "Description" field was used to extract the payment type of each transaction. Regular expressions or keyword-based approaches were used to categorize transactions into payment types like "Groceries," "Entertainment," "Transportation," etc.
 
 2.Extracting Month and Weekdays: The "Date" field was utilized to extract the month and weekdays (Monday, Tuesday, etc.) of each transaction. This helps in understanding spending patterns over different periods.
 
-##Dashboard Features
+## Dashboard Features
 The Personal Finance Dashboard provides the following key features:
 
 1.Average Weekdays Spending: A visual representation of your average spending on each weekday. This helps identify which weekdays you tend to spend more and plan your expenses accordingly.
@@ -28,7 +28,7 @@ The Personal Finance Dashboard provides the following key features:
 
 3.Transaction Count and Volume by Payment Type: Insights into the number of transactions and the total transaction volume for each payment type. This helps you understand where your money is going and make informed financial decisions.
 
-##How to Use the Dashboard
+## How to Use the Dashboard
 Clone the repository to your local machine.
 bash
 Copy code
@@ -41,7 +41,7 @@ Refresh Data: Depending on your dataset update frequency, you may need to refres
 
 Interact with the Dashboard: Explore the various visualizations and filters in the dashboard to gain insights into your spending and financial trends.
 
-Contributing
+## Contributing
 Contributions to this project are welcome! If you have any ideas for improvements, new features, or bug fixes, feel free to open an issue or submit a pull request.
 
 
