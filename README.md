@@ -1,1 +1,3 @@
-# My-Personal-Finance-Dashboard
+# Personal-Finance-Dashboard
+
+<img src='personalfinance.png'>
