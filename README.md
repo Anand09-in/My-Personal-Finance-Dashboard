@@ -1,3 +1,3 @@
 # Personal-Finance-Dashboard
 
-<img src='personalfinance.png'>
+<img src='personal.png'>
